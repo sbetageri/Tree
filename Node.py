@@ -4,3 +4,6 @@ class Node:
         self.left = left
         self.right = right
         self.key = key
+
+    def print(self):
+        print(self.key)
